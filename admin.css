@@ -1,0 +1,95 @@
+html {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #009688; /* Updated vibrant color */
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 6px 18px rgba(0, 150, 136, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #00796b; /* Darker hover effect */
+}
+
+body {
+    background: linear-gradient(135deg, #1c313a, #263238); /* Gradient background */
+    font-family: 'Poppins', sans-serif; /* More modern font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 36px;
+    color: #eceff1;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 85%;
+    max-width: 950px;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #263238; /* Darker table background */
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+table:hover {
+    transform: scale(1.02); /* Subtle table zoom effect */
+}
+
+th {
+    padding: 18px;
+    background-color: #00796b; /* Header with a deeper color */
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #004d40; /* Subtle border color */
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid #455a64;
+    color: #b0bec5; /* Lighter text color */
+    font-size: 16px;
+}
+
+td:hover {
+    background-color: #546e7a; /* Slight hover effect for cells */
+    cursor: pointer;
+}
+
+tr:hover td {
+    background-color: #607d8b; /* Hover effect for rows */
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    th, td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
