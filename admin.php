@@ -8,6 +8,9 @@
 </head>
 <body>
     <h2>Payments</h2>
+    <a href="index.html">
+    <button class="back-button">Back to Home</button>
+    </a>
     <div class="table-container">
     <table>
         <tr>
