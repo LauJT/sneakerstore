@@ -2,7 +2,7 @@ html {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: #009688; /* Updated vibrant color */
+    background-color: #00648b;    
     color: white;
     padding: 12px 18px;
     border-radius: 10px;
@@ -11,14 +11,33 @@ html {
     box-shadow: 0 6px 18px rgba(0, 150, 136, 0.3);
     transition: background-color 0.3s ease;
 }
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
 
+.back-button:hover {
+    background-color: #388e3c;
+} 
 a:hover {
-    background-color: #00796b; /* Darker hover effect */
+    background-color: #00796b; 
 }
 
 body {
-    background: linear-gradient(135deg, #1c313a, #263238); /* Gradient background */
-    font-family: 'Poppins', sans-serif; /* More modern font */
+    background: linear-gradient(135deg, #1c313a, #263238); 
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
     padding: 0;
     display: flex;
